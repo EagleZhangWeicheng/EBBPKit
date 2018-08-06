@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4D2DA3618554DEA7004B14 /* libPods-EBBPKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1674F5F3BA3003BA57BDF0C /* libPods-EBBPKit.a */; };
+		144467EB21100A2D00E4543B /* ELLaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 144467EA21100A2D00E4543B /* ELLaunchManager.m */; };
+		144467EE21100EBB00E4543B /* ELLaunchConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 144467ED21100EBB00E4543B /* ELLaunchConfig.m */; };
+		144467F12110128500E4543B /* ELLaunchSkipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 144467F02110128500E4543B /* ELLaunchSkipButton.m */; };
+		144467F42110520200E4543B /* ELLaunchVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 144467F32110520200E4543B /* ELLaunchVideoView.m */; };
+		144467F721105A9E00E4543B /* ELLaunchDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 144467F621105A9E00E4543B /* ELLaunchDownload.m */; };
+		14448000210B2D2B004FA093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14447FFF210B2D2B004FA093 /* AppDelegate.m */; };
+		14448006210B2D2B004FA093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14448004210B2D2B004FA093 /* Main.storyboard */; };
+		14448008210B2D2C004FA093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14448007210B2D2C004FA093 /* Assets.xcassets */; };
+		1444800B210B2D2C004FA093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14448009210B2D2C004FA093 /* LaunchScreen.storyboard */; };
+		1444800E210B2D2C004FA093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444800D210B2D2C004FA093 /* main.m */; };
+		14448030210B2E55004FA093 /* ELTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14448016210B2E55004FA093 /* ELTimer.m */; };
+		14448032210B2E55004FA093 /* NSString+ELString..m in Sources */ = {isa = PBXBuildFile; fileRef = 1444801C210B2E55004FA093 /* NSString+ELString..m */; };
+		14448033210B2E55004FA093 /* UIColor+ELColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444801D210B2E55004FA093 /* UIColor+ELColor.m */; };
+		14448034210B2E55004FA093 /* CALayer+ELLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14448021210B2E55004FA093 /* CALayer+ELLayer.m */; };
+		14448035210B2E55004FA093 /* UINavigationController+ELFDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 14448024210B2E55004FA093 /* UINavigationController+ELFDFullscreenPopGesture.m */; };
+		14448036210B2E55004FA093 /* ELJRToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 14448029210B2E55004FA093 /* ELJRToast.m */; };
+		14448037210B2E55004FA093 /* ELBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444802E210B2E55004FA093 /* ELBase64.m */; };
+		14448038210B2E55004FA093 /* ELSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444802F210B2E55004FA093 /* ELSecurity.m */; };
+		144DA363210EE32C0032DA30 /* ELLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DA362210EE32C0032DA30 /* ELLaunchView.m */; };
+		144DA367210EF8B10032DA30 /* UIViewController+ELBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DA366210EF8B10032DA30 /* UIViewController+ELBack.m */; };
+		144DA36E210EFC660032DA30 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DA36D210EFC660032DA30 /* TabViewController.m */; };
+		144DA371210EFCC10032DA30 /* ShopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DA370210EFCC10032DA30 /* ShopTableViewController.m */; };
+		144DA375210EFCDC0032DA30 /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DA374210EFCDC0032DA30 /* MineTableViewController.m */; };
+		144DA379210EFCFA0032DA30 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DA378210EFCFA0032DA30 /* HomeTableViewController.m */; };
+		144DA380210F00730032DA30 /* ELConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DA37F210F00730032DA30 /* ELConfig.m */; };
+		144DA389210F04A20032DA30 /* ELBackConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DA388210F04A20032DA30 /* ELBackConfig.m */; };
+		144DA38C210F096F0032DA30 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144DA38B210F096F0032DA30 /* TestViewController.m */; };
+		145960B6211824850081629A /* EBBPKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 145960B5211824840081629A /* EBBPKit.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12281BE7E1041D3628CE4544 /* Pods-EBBPKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBBPKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-EBBPKit/Pods-EBBPKit.release.xcconfig"; sourceTree = "<group>"; };
+		144467E921100A2D00E4543B /* ELLaunchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELLaunchManager.h; sourceTree = "<group>"; };
+		144467EA21100A2D00E4543B /* ELLaunchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLaunchManager.m; sourceTree = "<group>"; };
+		144467EC21100EBB00E4543B /* ELLaunchConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELLaunchConfig.h; sourceTree = "<group>"; };
+		144467ED21100EBB00E4543B /* ELLaunchConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLaunchConfig.m; sourceTree = "<group>"; };
+		144467EF2110128500E4543B /* ELLaunchSkipButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELLaunchSkipButton.h; sourceTree = "<group>"; };
+		144467F02110128500E4543B /* ELLaunchSkipButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLaunchSkipButton.m; sourceTree = "<group>"; };
+		144467F22110520200E4543B /* ELLaunchVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELLaunchVideoView.h; sourceTree = "<group>"; };
+		144467F32110520200E4543B /* ELLaunchVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLaunchVideoView.m; sourceTree = "<group>"; };
+		144467F521105A9E00E4543B /* ELLaunchDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELLaunchDownload.h; sourceTree = "<group>"; };
+		144467F621105A9E00E4543B /* ELLaunchDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLaunchDownload.m; sourceTree = "<group>"; };
+		14447FFB210B2D2B004FA093 /* EBBPKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBBPKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14447FFE210B2D2B004FA093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14447FFF210B2D2B004FA093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14448005210B2D2B004FA093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14448007210B2D2C004FA093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1444800A210B2D2C004FA093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1444800C210B2D2C004FA093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1444800D210B2D2C004FA093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14448016210B2E55004FA093 /* ELTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELTimer.m; sourceTree = "<group>"; };
+		14448018210B2E55004FA093 /* ELTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELTimer.h; sourceTree = "<group>"; };
+		14448019210B2E55004FA093 /* EBBPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBPKit.h; sourceTree = "<group>"; };
+		1444801B210B2E55004FA093 /* NSString+ELString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELString.h"; sourceTree = "<group>"; };
+		1444801C210B2E55004FA093 /* NSString+ELString..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELString..m"; sourceTree = "<group>"; };
+		1444801D210B2E55004FA093 /* UIColor+ELColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ELColor.m"; sourceTree = "<group>"; };
+		1444801E210B2E55004FA093 /* CALayer+ELLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ELLayer.h"; sourceTree = "<group>"; };
+		1444801F210B2E55004FA093 /* ELCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCategory.h; sourceTree = "<group>"; };
+		14448020210B2E55004FA093 /* UIColor+ELColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ELColor.h"; sourceTree = "<group>"; };
+		14448021210B2E55004FA093 /* CALayer+ELLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ELLayer.m"; sourceTree = "<group>"; };
+		14448023210B2E55004FA093 /* UINavigationController+ELFDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ELFDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		14448024210B2E55004FA093 /* UINavigationController+ELFDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ELFDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		14448026210B2E55004FA093 /* ELDefineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELDefineLayout.h; sourceTree = "<group>"; };
+		14448027210B2E55004FA093 /* ELDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELDefine.h; sourceTree = "<group>"; };
+		14448029210B2E55004FA093 /* ELJRToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELJRToast.m; sourceTree = "<group>"; };
+		1444802A210B2E55004FA093 /* ELJRToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELJRToast.h; sourceTree = "<group>"; };
+		1444802C210B2E55004FA093 /* ELSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELSecurity.h; sourceTree = "<group>"; };
+		1444802D210B2E55004FA093 /* ELBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELBase64.h; sourceTree = "<group>"; };
+		1444802E210B2E55004FA093 /* ELBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELBase64.m; sourceTree = "<group>"; };
+		1444802F210B2E55004FA093 /* ELSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELSecurity.m; sourceTree = "<group>"; };
+		144DA361210EE32C0032DA30 /* ELLaunchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELLaunchView.h; sourceTree = "<group>"; };
+		144DA362210EE32C0032DA30 /* ELLaunchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLaunchView.m; sourceTree = "<group>"; };
+		144DA365210EF8B10032DA30 /* UIViewController+ELBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELBack.h"; sourceTree = "<group>"; };
+		144DA366210EF8B10032DA30 /* UIViewController+ELBack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELBack.m"; sourceTree = "<group>"; };
+		144DA36C210EFC660032DA30 /* TabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		144DA36D210EFC660032DA30 /* TabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		144DA36F210EFCC10032DA30 /* ShopTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopTableViewController.h; sourceTree = "<group>"; };
+		144DA370210EFCC10032DA30 /* ShopTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopTableViewController.m; sourceTree = "<group>"; };
+		144DA373210EFCDC0032DA30 /* MineTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
+		144DA374210EFCDC0032DA30 /* MineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
+		144DA377210EFCFA0032DA30 /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		144DA378210EFCFA0032DA30 /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		144DA37E210F00720032DA30 /* ELConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELConfig.h; sourceTree = "<group>"; };
+		144DA37F210F00730032DA30 /* ELConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELConfig.m; sourceTree = "<group>"; };
+		144DA387210F04A20032DA30 /* ELBackConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELBackConfig.h; sourceTree = "<group>"; };
+		144DA388210F04A20032DA30 /* ELBackConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELBackConfig.m; sourceTree = "<group>"; };
+		144DA38A210F096F0032DA30 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		144DA38B210F096F0032DA30 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		145960B5211824840081629A /* EBBPKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EBBPKit.podspec; sourceTree = SOURCE_ROOT; };
+		43A35D2645A9B43E47444953 /* Pods-EBBPKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBBPKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EBBPKit/Pods-EBBPKit.debug.xcconfig"; sourceTree = "<group>"; };
+		C1674F5F3BA3003BA57BDF0C /* libPods-EBBPKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EBBPKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14447FF8210B2D2B004FA093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4D2DA3618554DEA7004B14 /* libPods-EBBPKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14447FF2210B2D2B004FA093 = {
+			isa = PBXGroup;
+			children = (
+				14447FFD210B2D2B004FA093 /* EBBPKit */,
+				14447FFC210B2D2B004FA093 /* Products */,
+				313C817D026B121E0C6F3630 /* Pods */,
+				922FAE3FCFAFBF9224C0AB72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14447FFC210B2D2B004FA093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14447FFB210B2D2B004FA093 /* EBBPKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14447FFD210B2D2B004FA093 /* EBBPKit */ = {
+			isa = PBXGroup;
+			children = (
+				14448014210B2E55004FA093 /* EBBPKit */,
+				14447FFE210B2D2B004FA093 /* AppDelegate.h */,
+				14447FFF210B2D2B004FA093 /* AppDelegate.m */,
+				144DA36C210EFC660032DA30 /* TabViewController.h */,
+				144DA36D210EFC660032DA30 /* TabViewController.m */,
+				144467E921100A2D00E4543B /* ELLaunchManager.h */,
+				144467EA21100A2D00E4543B /* ELLaunchManager.m */,
+				14448004210B2D2B004FA093 /* Main.storyboard */,
+				14448007210B2D2C004FA093 /* Assets.xcassets */,
+				14448009210B2D2C004FA093 /* LaunchScreen.storyboard */,
+				1444800C210B2D2C004FA093 /* Info.plist */,
+				1444800D210B2D2C004FA093 /* main.m */,
+				145960B5211824840081629A /* EBBPKit.podspec */,
+				144DA376210EFCDF0032DA30 /* Shop */,
+				144DA372210EFCCB0032DA30 /* Mine */,
+				144DA368210EFBF80032DA30 /* Home */,
+			);
+			path = EBBPKit;
+			sourceTree = "<group>";
+		};
+		14448014210B2E55004FA093 /* EBBPKit */ = {
+			isa = PBXGroup;
+			children = (
+				14448019210B2E55004FA093 /* EBBPKit.h */,
+				144DA360210EE2920032DA30 /* ELLaunch */,
+				14448015210B2E55004FA093 /* ELTimer */,
+				1444801A210B2E55004FA093 /* ELCategory */,
+				14448022210B2E55004FA093 /* ELFDFullscreenPopGesture */,
+				14448025210B2E55004FA093 /* Common */,
+				14448028210B2E55004FA093 /* ELJRToast */,
+				1444802B210B2E55004FA093 /* ELSecurity */,
+				144DA37A210F00260032DA30 /* ELConfig */,
+			);
+			path = EBBPKit;
+			sourceTree = "<group>";
+		};
+		14448015210B2E55004FA093 /* ELTimer */ = {
+			isa = PBXGroup;
+			children = (
+				14448018210B2E55004FA093 /* ELTimer.h */,
+				14448016210B2E55004FA093 /* ELTimer.m */,
+			);
+			path = ELTimer;
+			sourceTree = "<group>";
+		};
+		1444801A210B2E55004FA093 /* ELCategory */ = {
+			isa = PBXGroup;
+			children = (
+				1444801F210B2E55004FA093 /* ELCategory.h */,
+				1444801B210B2E55004FA093 /* NSString+ELString.h */,
+				1444801C210B2E55004FA093 /* NSString+ELString..m */,
+				14448020210B2E55004FA093 /* UIColor+ELColor.h */,
+				1444801D210B2E55004FA093 /* UIColor+ELColor.m */,
+				1444801E210B2E55004FA093 /* CALayer+ELLayer.h */,
+				14448021210B2E55004FA093 /* CALayer+ELLayer.m */,
+				144DA365210EF8B10032DA30 /* UIViewController+ELBack.h */,
+				144DA366210EF8B10032DA30 /* UIViewController+ELBack.m */,
+			);
+			path = ELCategory;
+			sourceTree = "<group>";
+		};
+		14448022210B2E55004FA093 /* ELFDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				14448023210B2E55004FA093 /* UINavigationController+ELFDFullscreenPopGesture.h */,
+				14448024210B2E55004FA093 /* UINavigationController+ELFDFullscreenPopGesture.m */,
+			);
+			path = ELFDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		14448025210B2E55004FA093 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				14448027210B2E55004FA093 /* ELDefine.h */,
+				14448026210B2E55004FA093 /* ELDefineLayout.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		14448028210B2E55004FA093 /* ELJRToast */ = {
+			isa = PBXGroup;
+			children = (
+				1444802A210B2E55004FA093 /* ELJRToast.h */,
+				14448029210B2E55004FA093 /* ELJRToast.m */,
+			);
+			path = ELJRToast;
+			sourceTree = "<group>";
+		};
+		1444802B210B2E55004FA093 /* ELSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				1444802C210B2E55004FA093 /* ELSecurity.h */,
+				1444802F210B2E55004FA093 /* ELSecurity.m */,
+				1444802D210B2E55004FA093 /* ELBase64.h */,
+				1444802E210B2E55004FA093 /* ELBase64.m */,
+			);
+			path = ELSecurity;
+			sourceTree = "<group>";
+		};
+		144DA360210EE2920032DA30 /* ELLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				144467EC21100EBB00E4543B /* ELLaunchConfig.h */,
+				144467ED21100EBB00E4543B /* ELLaunchConfig.m */,
+				144DA361210EE32C0032DA30 /* ELLaunchView.h */,
+				144DA362210EE32C0032DA30 /* ELLaunchView.m */,
+				144467EF2110128500E4543B /* ELLaunchSkipButton.h */,
+				144467F02110128500E4543B /* ELLaunchSkipButton.m */,
+				144467F22110520200E4543B /* ELLaunchVideoView.h */,
+				144467F32110520200E4543B /* ELLaunchVideoView.m */,
+				144467F521105A9E00E4543B /* ELLaunchDownload.h */,
+				144467F621105A9E00E4543B /* ELLaunchDownload.m */,
+			);
+			path = ELLaunch;
+			sourceTree = "<group>";
+		};
+		144DA368210EFBF80032DA30 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				144DA377210EFCFA0032DA30 /* HomeTableViewController.h */,
+				144DA378210EFCFA0032DA30 /* HomeTableViewController.m */,
+				144DA38A210F096F0032DA30 /* TestViewController.h */,
+				144DA38B210F096F0032DA30 /* TestViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		144DA372210EFCCB0032DA30 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				144DA373210EFCDC0032DA30 /* MineTableViewController.h */,
+				144DA374210EFCDC0032DA30 /* MineTableViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		144DA376210EFCDF0032DA30 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				144DA36F210EFCC10032DA30 /* ShopTableViewController.h */,
+				144DA370210EFCC10032DA30 /* ShopTableViewController.m */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		144DA37A210F00260032DA30 /* ELConfig */ = {
+			isa = PBXGroup;
+			children = (
+				144DA387210F04A20032DA30 /* ELBackConfig.h */,
+				144DA388210F04A20032DA30 /* ELBackConfig.m */,
+				144DA37E210F00720032DA30 /* ELConfig.h */,
+				144DA37F210F00730032DA30 /* ELConfig.m */,
+			);
+			path = ELConfig;
+			sourceTree = "<group>";
+		};
+		313C817D026B121E0C6F3630 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43A35D2645A9B43E47444953 /* Pods-EBBPKit.debug.xcconfig */,
+				12281BE7E1041D3628CE4544 /* Pods-EBBPKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		922FAE3FCFAFBF9224C0AB72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1674F5F3BA3003BA57BDF0C /* libPods-EBBPKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14447FFA210B2D2B004FA093 /* EBBPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14448011210B2D2C004FA093 /* Build configuration list for PBXNativeTarget "EBBPKit" */;
+			buildPhases = (
+				ACBA6BDB22EF742DC4B60105 /* [CP] Check Pods Manifest.lock */,
+				14447FF7210B2D2B004FA093 /* Sources */,
+				14447FF8210B2D2B004FA093 /* Frameworks */,
+				14447FF9210B2D2B004FA093 /* Resources */,
+				F8093BB67DDC6394E42ACC11 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBBPKit;
+			productName = EBBPKit;
+			productReference = 14447FFB210B2D2B004FA093 /* EBBPKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14447FF3210B2D2B004FA093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Eagle;
+				TargetAttributes = {
+					14447FFA210B2D2B004FA093 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 14447FF6210B2D2B004FA093 /* Build configuration list for PBXProject "EBBPKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14447FF2210B2D2B004FA093;
+			productRefGroup = 14447FFC210B2D2B004FA093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14447FFA210B2D2B004FA093 /* EBBPKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14447FF9210B2D2B004FA093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145960B6211824850081629A /* EBBPKit.podspec in Resources */,
+				1444800B210B2D2C004FA093 /* LaunchScreen.storyboard in Resources */,
+				14448008210B2D2C004FA093 /* Assets.xcassets in Resources */,
+				14448006210B2D2B004FA093 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACBA6BDB22EF742DC4B60105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EBBPKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8093BB67DDC6394E42ACC11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EBBPKit/Pods-EBBPKit-resources.sh",
+				"${PODS_ROOT}/EagleELEmptyView/ELEmptyView/ELEmptyView/ELEmptySource.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/PYSearch/PYSearch/PYSearch.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ELEmptySource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PYSearch.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EBBPKit/Pods-EBBPKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14447FF7210B2D2B004FA093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144467EE21100EBB00E4543B /* ELLaunchConfig.m in Sources */,
+				14448038210B2E55004FA093 /* ELSecurity.m in Sources */,
+				14448036210B2E55004FA093 /* ELJRToast.m in Sources */,
+				14448037210B2E55004FA093 /* ELBase64.m in Sources */,
+				144DA380210F00730032DA30 /* ELConfig.m in Sources */,
+				144467F42110520200E4543B /* ELLaunchVideoView.m in Sources */,
+				144DA379210EFCFA0032DA30 /* HomeTableViewController.m in Sources */,
+				144467F12110128500E4543B /* ELLaunchSkipButton.m in Sources */,
+				14448033210B2E55004FA093 /* UIColor+ELColor.m in Sources */,
+				144DA375210EFCDC0032DA30 /* MineTableViewController.m in Sources */,
+				144467EB21100A2D00E4543B /* ELLaunchManager.m in Sources */,
+				144DA367210EF8B10032DA30 /* UIViewController+ELBack.m in Sources */,
+				14448035210B2E55004FA093 /* UINavigationController+ELFDFullscreenPopGesture.m in Sources */,
+				1444800E210B2D2C004FA093 /* main.m in Sources */,
+				14448030210B2E55004FA093 /* ELTimer.m in Sources */,
+				144DA38C210F096F0032DA30 /* TestViewController.m in Sources */,
+				14448032210B2E55004FA093 /* NSString+ELString..m in Sources */,
+				144467F721105A9E00E4543B /* ELLaunchDownload.m in Sources */,
+				144DA363210EE32C0032DA30 /* ELLaunchView.m in Sources */,
+				14448034210B2E55004FA093 /* CALayer+ELLayer.m in Sources */,
+				144DA371210EFCC10032DA30 /* ShopTableViewController.m in Sources */,
+				144DA389210F04A20032DA30 /* ELBackConfig.m in Sources */,
+				144DA36E210EFC660032DA30 /* TabViewController.m in Sources */,
+				14448000210B2D2B004FA093 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14448004210B2D2B004FA093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14448005210B2D2B004FA093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14448009210B2D2C004FA093 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1444800A210B2D2C004FA093 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1444800F210B2D2C004FA093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14448010210B2D2C004FA093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14448012210B2D2C004FA093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A35D2645A9B43E47444953 /* Pods-EBBPKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A558G4HSFJ;
+				INFOPLIST_FILE = EBBPKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.EBBPKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		14448013210B2D2C004FA093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12281BE7E1041D3628CE4544 /* Pods-EBBPKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A558G4HSFJ;
+				INFOPLIST_FILE = EBBPKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.EBBPKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14447FF6210B2D2B004FA093 /* Build configuration list for PBXProject "EBBPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1444800F210B2D2C004FA093 /* Debug */,
+				14448010210B2D2C004FA093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14448011210B2D2C004FA093 /* Build configuration list for PBXNativeTarget "EBBPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14448012210B2D2C004FA093 /* Debug */,
+				14448013210B2D2C004FA093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14447FF3210B2D2B004FA093 /* Project object */;
+}
