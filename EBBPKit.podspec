@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EBBPKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "工程的基本设定"
 
   # This description is used to generate tags and improve search results.
